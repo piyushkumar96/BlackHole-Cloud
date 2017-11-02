@@ -11,9 +11,13 @@ Description :- Cloud Computing Services Access through web portal All users logi
 
  Paas :- Providing platform like python, java, Ansible, Apache server etc. using Docker & Container.
 
+
 Technology Used :-
 
  OS :- RedHat, Kali, Ubuntu, Windows, OpenSuse, CentOS.
+
  Back End :- Python with Python CGI linked with MariaDB database.
+
  Front End :- HTML, CSS, JS, BOOTSTRAP.
+
  Tools :- Qemu-Kvm, Sublime, Browser, RFID tags.
