@@ -1,0 +1,800 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+                          
+details,
+footer,
+header,
+menu {
+  display: block;
+}                     
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}        
+b,
+strong {
+  font-weight: bold;
+}
+h1 {
+  margin: .67em 0;
+  font-size: 2em;
+}
+img {
+  border: 0;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="radio"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+  -webkit-appearance: textfield;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  padding: .35em .625em .75em;
+  margin: 0 2px;
+  border: 1px solid #c0c0c0;
+}
+legend {
+  padding: 0;
+  border: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: 0;
+}
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+input,
+button,
+select,
+textarea {
+  font-family: "Lucida Console";
+  font-size: inherit;
+  line-height: inherit;
+}
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+                                                        figure {
+                                                          margin: 0;
+                                                        }
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+                                                            h1 small,
+                                                            h2 small,
+                                                            h3 small,
+                                                            h4 small,
+                                                            h5 small,
+                                                            h6 small,
+                                                            .h1 small,
+                                                            .h2 small,
+                                                            .h3 small,
+                                                            .h4 small,
+                                                            .h5 small,
+                                                            .h6 small,
+                                                            h1 .small,
+                                                            h2 .small,
+                                                            h3 .small,
+                                                            h4 .small,
+                                                            h5 .small,
+                                                            h6 .small,
+                                                            .h1 .small,
+                                                            .h2 .small,
+                                                            .h3 .small,
+                                                            .h4 .small,
+                                                            .h5 .small,
+                                                            .h6 .small {
+                                                              font-weight: normal;
+                                                              line-height: 1;
+                                                              color: #777;
+                                                            }
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+                                                                h1 small,
+                                                                .h1 small,
+                                                                h2 small,
+                                                                .h2 small,
+                                                                h3 small,
+                                                                .h3 small,
+                                                                h1 .small,
+                                                                .h1 .small,
+                                                                h2 .small,
+                                                                .h2 .small,
+                                                                h3 .small,
+                                                                .h3 .small {
+                                                                  font-size: 65%;
+                                                                }
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+                                                                h4 small,
+                                                                .h4 small,
+                                                                h5 small,
+                                                                .h5 small,
+                                                                h6 small,
+                                                                .h6 small,
+                                                                h4 .small,
+                                                                .h4 .small,
+                                                                h5 .small,
+                                                                .h5 .small,
+                                                                h6 .small,
+                                                                .h6 .small {
+                                                                  font-size: 75%;
+                                                                }
+h1,
+.h1 {
+  font-size: 36px;
+}
+h2,
+.h2 {
+  font-size: 30px;
+}
+h3,
+.h3 {
+  font-size: 24px;
+}
+h4,
+.h4 {
+  font-size: 18px;
+}
+h5,
+.h5 {
+  font-size: 14px;
+}
+h6,
+.h6 {
+  font-size: 12px;
+}
+p {
+  margin: 0 0 10px;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-bottom: 0;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-top: 4em;
+}
+.range-col-xs-6 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-top: 3em;
+}
+.range-sthdd-col-xs-6 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-top: 1em;
+}
+
+}
+.col-md-4-1 {
+position: relative;
+  min-height: 1px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-top: 0em;}
+
+.iaas-col-md-4,.iaas-col-md-8 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 0px;
+  padding-left: 70px;
+  margin-top: 0.8em;
+}
+.staas-col-md-4,.staas-col-md-8 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 0px;
+  padding-left: 70px;
+  margin-top: 0.8em;
+}
+.saas-col-md-4,.saas-col-md-8 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 0px;
+  padding-left: 70px;
+  margin-top: 0.8em;
+}
+@media (min-width: 992px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4,.iaas-col-md-4,.staas-col-md-4,.saas-col-md-4,.col-md-5, .col-md-6, .col-md-7, .col-md-8,.iaas-col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    position: relative;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  .col-md-11 {
+    width: 91.66666667%;
+  }
+  .col-md-10 {
+    width: 83.33333333%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-8 {
+    width: 66.66666667%;
+  }
+  .col-md-7 {
+    width: 58.33333333%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-5 {
+    width: 41.66666667%;
+  }
+  .col-md-4 {
+    width: 33.33333333%;
+  }
+  .iaas-col-md-4 {
+    width: 16.5%;
+    position: relative;
+  } 
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-2 {
+    width: 16.66666667%;
+  }
+  .col-md-1 {
+    width: 8.33333333%;
+  }
+  .col-md-pull-12 {
+    right: 100%;
+  }
+  .col-md-pull-11 {
+    right: 91.66666667%;
+  }
+  .col-md-pull-10 {
+    right: 83.33333333%;
+  }
+  .col-md-pull-9 {
+    right: 75%;
+  }
+  .col-md-pull-8 {
+    right: 66.66666667%;
+  }
+  .col-md-pull-7 {
+    right: 58.33333333%;
+  }
+  .col-md-pull-6 {
+    right: 50%;
+  }
+  .col-md-pull-5 {
+    right: 41.66666667%;
+  }
+  .col-md-pull-4 {
+    right: 33.33333333%;
+  }
+  .col-md-pull-3 {
+    right: 25%;
+  }
+  .col-md-pull-2 {
+    right: 16.66666667%;
+  }
+  .col-md-pull-1 {
+    right: 8.33333333%;
+  }
+  .col-md-pull-0 {
+    right: auto;
+  }
+  .col-md-push-12 {
+    left: 100%;
+  }
+  .col-md-push-11 {
+    left: 91.66666667%;
+  }
+  .col-md-push-10 {
+    left: 83.33333333%;
+  }
+  .col-md-push-9 {
+    left: 75%;
+  }
+  .col-md-push-8 {
+    left: 66.66666667%;
+  }
+  .col-md-push-7 {
+    left: 58.33333333%;
+  }
+  .col-md-push-6 {
+    left: 50%;
+  }
+  .col-md-push-5 {
+    left: 41.66666667%;
+  }
+  .col-md-push-4 {
+    left: 33.33333333%;
+  }
+  .col-md-push-3 {
+    left: 25%;
+  }
+  .col-md-push-2 {
+    left: 16.66666667%;
+  }
+  .col-md-push-1 {
+    left: 8.33333333%;
+  }
+  .col-md-push-0 {
+    left: auto;
+  }
+  .col-md-offset-12 {
+    margin-left: 100%;
+  }
+  .col-md-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  .col-md-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  .col-md-offset-9 {
+    margin-left: 75%;
+  }
+  .col-md-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  .col-md-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  .col-md-offset-6 {
+    margin-left: 50%;
+  }
+  .col-md-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  .col-md-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  .col-md-offset-3 {
+    margin-left: 25%;
+  }
+  .col-md-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  .col-md-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  .col-md-offset-0 {
+    margin-left: 0;
+  }
+}
+.dropup,
+.dropdown {
+  position: relative;
+}
+.dropdown-toggle:focus {
+  outline: 0;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+.dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+.dropdown-menu .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #333;
+  white-space: nowrap;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #262626;
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #337ab7;
+  outline: 0;
+}
+.dropdown-menu > .disabled > a,
+.dropdown-menu > .disabled > a:hover,
+.dropdown-menu > .disabled > a:focus {
+  color: #777;
+}
+.dropdown-menu > .disabled > a:hover,
+.dropdown-menu > .disabled > a:focus {
+  text-decoration: none;
+  cursor: not-allowed;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.open > .dropdown-menu {
+  display: block;
+}
+.open > a {
+  outline: 0;
+}                                                          
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: #777;
+  border-radius: 10px;
+}
+                                              .badge:empty {
+                                                display: none;
+                                              }
+                                              .btn .badge {
+                                                position: relative;
+                                                top: -1px;
+                                              }
+                                              .btn-xs .badge,
+                                              .btn-group-xs > .btn .badge {
+                                                top: 0;
+                                                padding: 1px 5px;
+                                              }
+                                              a.badge:hover,
+                                              a.badge:focus {
+                                                color: #fff;
+                                                text-decoration: none;
+                                                cursor: pointer;
+                                              }
+                                              .list-group-item.active > .badge,
+                                              .nav-pills > .active > a > .badge {
+                                                color: #337ab7;
+                                                background-color: #fff;
+                                              }
+                                              .list-group-item > .badge {
+                                                float: right;
+                                              }
+                                              .list-group-item > .badge + .badge {
+                                                margin-right: 5px;
+                                              }
+                                              .nav-pills > li > a > .badge {
+                                                margin-left: 3px;
+                                              }
+                                             /* frame bigger */
+                                              .close {
+                                                float: right;
+                                                font-size: 21px;
+                                                font-weight: bold;
+                                                line-height: 1;
+                                                color: #000;
+                                                text-shadow: 0 1px 0 #fff;
+                                                filter: alpha(opacity=20);
+                                                opacity: .2;
+                                              }
+                                              .close:hover,
+                                              .close:focus {
+                                                color: #000;
+                                                text-decoration: none;
+                                                cursor: pointer;
+                                                filter: alpha(opacity=50);
+                                                opacity: .5;
+                                              }
+                                              button.close {
+                                                -webkit-appearance: none;
+                                                padding: 0;
+                                                cursor: pointer;
+                                                background: transparent;
+                                                border: 0;
+                                              }
+                                              .modal-open {
+                                                overflow: hidden;
+                                              }
+                                              .modal {
+                                                position: fixed;
+                                                top: 0;
+                                                right: 0;
+                                                bottom: 0;
+                                                left: -13px;
+                                                z-index: 1050;
+                                                display: none;
+                                                overflow: hidden;
+                                                -webkit-overflow-scrolling: touch;
+                                                outline: 0;
+                                              }
+                                              .modal.fade .modal-dialog {
+                                                -webkit-transition: -webkit-transform .3s ease-out;
+                                                     -o-transition:      -o-transform .3s ease-out;
+                                                        transition:         transform .3s ease-out;
+                                                -webkit-transform: translate(0, -25%);
+                                                    -ms-transform: translate(0, -25%);
+                                                     -o-transform: translate(0, -25%);
+                                                        transform: translate(0, -25%);
+
+                                              }
+                                              .modal.in .modal-dialog {
+                                                -webkit-transform: translate(0, 0);
+                                                    -ms-transform: translate(0, 0);
+                                                     -o-transform: translate(0, 0);
+                                                        transform: translate(0, 0);
+                                              }
+                                              .modal-open .modal {
+                                                overflow-x: hidden;
+                                                overflow-y: auto;
+                                              }
+                                              .modal-dialog {
+                                                position: relative;
+                                                width: auto;
+                                                margin: 10px;
+                                              }
+                                              .modal-content {
+                                                position: relative;
+                                                background-color: #fff;
+                                                -webkit-background-clip: padding-box;
+                                                        background-clip: padding-box;
+                                                border: 1px solid #999;
+                                                border: 1px solid rgba(0, 0, 0, .2);
+                                                border-radius: 6px;
+                                                outline: 0;
+                                                -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+                                                        box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+                                                height: 43.8em;
+                                              }
+                                              .modal-backdrop {
+                                                position: fixed;
+                                                top: 0;
+                                                right: 0;
+                                                bottom: 0;
+                                                left: 0;
+                                                z-index: 1040;
+                                                background-color: #000;
+                                              }
+                                              .modal-backdrop.fade {
+                                                filter: alpha(opacity=0);
+                                                opacity: 0;
+                                              }
+                                              .modal-backdrop.in {
+                                                filter: alpha(opacity=50);
+                                                opacity: .5;
+                                              }
+                                              .modal-header {
+                                                min-height: 16.42857143px;
+                                                padding: 15px;
+                                                border-bottom: 1px solid #e5e5e5;
+                                              }
+                                              .modal-header .close {
+                                                margin-top: -2px;
+                                              }
+                                              .modal-title {
+                                                margin: 0;
+                                                line-height: 1.42857143;
+                                              }
+                                              .modal-body {
+                                                position: relative;
+                                                padding: 15px;
+                                                height: 39em;
+                                              }
+                                              .modal-footer {
+                                                padding: 15px;
+                                                text-align: right;
+                                                border-top: 1px solid #e5e5e5;
+                                              }
+                                              .modal-footer .btn + .btn {
+                                                margin-bottom: 0;
+                                                margin-left: 5px;
+                                              }
+                                              .modal-footer .btn-group .btn + .btn {
+                                                margin-left: -1px;
+                                              }
+                                              .modal-footer .btn-block + .btn-block {
+                                                margin-left: 0;
+                                              }
+                                              .modal-scrollbar-measure {
+                                                position: absolute;
+                                                top: -9999px;
+                                                width: 50px;
+                                                height: 50px;
+                                                overflow: scroll;
+                                              }
+                                              @media (min-width: 768px) {
+                                                .modal-dialog {
+                                                  width: 100%;
+                                                  margin: -1px auto;
+                                                }
+                                                .modal-content {
+                                                  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+                                                          box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+                                                }
+                                                .modal-sm {
+                                                  width: 300px;
+                                                }
+                                              }
+                                              @media (min-width: 992px) {
+                                                .modal-lg {
+                                                  width: 900px;
+                                                }
+                                              }
+                            
+.clearfix:before,
+.clearfix:after,                                                
+.modal-footer:before,
+.modal-footer:after {
+  display: table;
+  content: " ";
+}
+.clearfix:after,
+.modal-footer:after {
+  clear: both;
+}
+                                                    

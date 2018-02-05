@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>BHC Register Portal</title>
+<meta name="keywords" content=" Black Hole Cloud Services, Login , Registeration " />
+<meta name="description" content="Client Register Portal " />
+<meta name="revised" content="BlackHoleCloud", 12/5/2016" />
+<!--<meta http-equiv="cookie" content="userid=xyz; expires=Wednesday, 08-Aug-15 23:59:59 GMT;" />-->
+<meta ame="author" content="Piyush Kumar , CSE BIT MESRA" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<!--js-->
+<script src="js/jquery-2.1.1.min.js"></script> 
+<!--icons-css-->
+<link href="css/font-awesome.css" rel="stylesheet">
+<!--Google Fonts-->
+<link href='//fonts.googleapis.com/css?family=Carrois+Gothic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Work+Sans:400,500,600' rel='stylesheet' type='text/css'>
+
+</head>
+<body>	
+<!--inner block start here-->
+<div class="signup-page-main">
+     <div class="signup-main">  	
+    	 <div class="signup-head">
+			</div>
+			<div class="signup-block">
+				<form action="../../cgi-bin/signup.cgi" method="post" accept-charset="utf-8" >
+					<input autofocus placeholder='FirstName' type='text' name="firstname" required="">
+			       <input autofocus placeholder='LastName' type='text' name="lastname" required="">
+			       <input autofocus placeholder='Password' class="lock" type='password'  name='password' required="">
+			       <input autofocus placeholder='Confirm Password' class="lock" type='password'  name='confirmpassword' required="">
+			       <input autofocus type="radio" id="radio1" name="gender" value="male" checked>
+                   <label for="radio1">MALE</label>
+                   <input autofocus type="radio" id="radio2" name="gender" value="female">
+                   <label for="radio2">FEMALE</label>
+			       <input autofocus placeholder='DOB DD/MM/YYYY' type='text' maxlength='10' name='dob' required="">
+			       <input autofocus placeholder='Email Id' type='text' name='emailid' onclick="ValidateEmail(document.form1.text1)"  required="">
+			       <input autofocus placeholder='Phone No' type='text' name='phoneno' maxlength='10'  onkeypress="return isNumberKey(event)" required="">
+                 <input autofocus type="file" placeholder='CHOOSE PIC' name="profilepic" id="camerainput1" accept="image/*" capture="camera">
+                 <label for="camerainput1">CHOOSE PIC</label>
+
+					<div class="forgot-top-grids">
+						<div class="forgot-grid">
+							<ul>
+								<li>
+									<input type="checkbox" id="brand1" value="">
+									<label for="brand1"><span></span>I agree to the Terms and Conditions</label>
+								</li>
+							</ul>
+						</div>
+						
+						<div class="clearfix"> </div>
+					</div>
+					<input type="reset" name="Sign In" value="Reset" style="float:left">	
+					<input type="submit" name="Sign In" value="Register">													
+				</form>
+				<div class="sign-down">
+				<h4><b>Already have an account?</b> <a href="login.html"><b>   Login here.</b></a></h4>
+				</div>
+			</div>
+    </div>
+</div>
+<!--inner block end here-->
+<!--copy rights start here-->
+<div class="copyrights">
+	 <p><b>© 2016 Black Hole Cloud All Rights Reserved</b> </p>
+</div>		
+<!--COPY rights end here-->
+<!--scrolling js-->
+		<script src="js/jquery.nicescroll.js"></script>
+		<script src="js/scripts.js"></script>
+		<!--//scrolling js-->
+<script src="js/bootstrap.js"> </script>
+<!-- mother grid end here-->
+</body>
+</html>
+
+
+                      
+						
